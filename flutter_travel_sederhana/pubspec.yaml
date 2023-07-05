@@ -1,0 +1,28 @@
+name: flutter_travel_sederhana
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/location1.jpg
+    - assets/location2.jpg
+    - assets/location3.jpg
+    - assets/destination1.jpg
+    - assets/destination2.jpg
+    - assets/destination3.jpg
+    - assets/profile_image.jpg
